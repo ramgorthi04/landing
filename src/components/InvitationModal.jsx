@@ -23,26 +23,11 @@ export const InvitationModal = ({ setIsOpen }) => (
           <div className="flex relative">
             <div className="w-1/2 hidden lg:inline">
               <h2 className="mt-6 mb-2 text-5xl font-bold tracking-normal text-primaryText">
-                Subscribe Now
-              </h2>
-              <h2 className="text-5xl font-bold tracking-normal text-secondaryColor">
                 Join the waitlist
               </h2>
-
-              <ul className="mb-6 text-primaryText mt-12">
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Immediate support</span>
-                </li>
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Free consultation</span>
-                </li>
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>7-day free trial</span>
-                </li>
-              </ul>
+              <h2 className="text-5xl font-bold tracking-normal text-secondaryColor">
+               We'll reach out
+              </h2>
             </div>
             <div className="w-full lg:w-1/2 flex items-center flex-col justify-center pt-24 sm:pt-0">
               <div className="flex inline lg:hidden justify-start items-center grow basis-0 mb-8 pr-6">

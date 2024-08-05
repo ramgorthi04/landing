@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
-
 import feature5 from "../assets/images/feature5.jpg";
-import feature6 from "../assets/images/feature6.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features2 = () => (
@@ -18,8 +16,8 @@ export const Features2 = () => (
             <div className="mb-4 py-3 md:pl-3 md:pr-20 lg:pr-12 rounded">
               <img
                 src={feature5.src}
-                alt="Feature image 5"
-                className="rounded-xl  main-border-gray"
+                alt="AI-powered Shopify analytics dashboard"
+                className="rounded-xl main-border-gray"
               />
             </div>
           </div>
@@ -27,25 +25,25 @@ export const Features2 = () => (
 
         <div className="w-full lg:w-1/2 mb-12 lg:mb-0 xl:pl-8">
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-            <span className="block-subtitle">Automation</span>
+            <span className="block-subtitle">Smart Campaigns</span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
-              Launch data-driven campaigns
+              Data-Driven Marketing
             </h2>
             <p className="mb-12 text-secondaryText leading-loose">
-              Start an email marketing campaign by identifying repeat customers with high order volumes who haven't purchased recently.
+              Leverage AI to identify high-value customers and launch targeted email campaigns. Ask questions about your purchase history, churn, order volumes, and recent activity to maximize your marketing efforts.
             </p>
             <ul className="mb-6 text-primaryText">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Collaborative environment</span>
+                <span>Customer segmentation based on AI insights</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Smart issue categorization</span>
+                <span>Automated campaign suggestions</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Customizable notifications</span>
+                <span>Performance tracking and optimization</span>
               </li>
             </ul>
           </div>
