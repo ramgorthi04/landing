@@ -9,6 +9,10 @@ export const Hero = () => {
   const handleGetStarted = () => {
     window.open("https://calendly.com/ramgorthi/30min?back=1&month=2024-08", "_blank");
   };
+  
+  const handleJoinWaitlist = () => {
+    window.open("https://airtable.com/appnzbipIlayOkPod/shrH9WXcOSaiNb1oj", "_blank");
+  };
 
   return (
     <section
@@ -57,12 +61,12 @@ export const Hero = () => {
                 Get Started
             </button>
             <button
-            className="w-64 sm:w-52 h-12 rounded-xl font-bold text-primaryText border border-solid flex justify-center items-center cursor-pointer bg-bgDark2 hover:bg-bgDark3 border-primaryColor transition"
-            onClick={() => setIsModalOpen(true)}
-            aria-label="Join waitlist"
-          >
-            Join Waitlist
-          </button>
+              className="w-64 sm:w-52 h-12 rounded-xl font-bold text-primaryText border border-solid flex justify-center items-center cursor-pointer bg-bgDark2 hover:bg-bgDark3 border-primaryColor transition"
+              onClick={handleJoinWaitlist}
+              aria-label="Join waitlist"
+            >
+              Join Waitlist
+            </button>
           </div>
         </motion.div>
         <motion.div
