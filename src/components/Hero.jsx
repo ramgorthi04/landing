@@ -6,6 +6,10 @@ import dashboard from "../assets/images/shopdashboard.jpg";
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const handleGetStarted = () => {
+    window.open("https://calendly.com/ramgorthi/30min?back=1&month=2024-08", "_blank");
+  };
+
   return (
     <section
       className="w-screen flex justify-center items-center bg-bgDark1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
@@ -46,19 +50,19 @@ export const Hero = () => {
         >
           <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-24 sm:mb-40 justify-center">
             <button
-              className="contained-button w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
-              onClick={() => setIsModalOpen(true)}
-              aria-label="Get started"
+                className="contained-button w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
+                onClick={handleGetStarted}
+                aria-label="Get started"
             >
-              Get Started
+                Get Started
             </button>
             <button
-              className="w-64 sm:w-52 h-12 rounded-xl font-bold text-primaryText border border-solid flex justify-center items-center cursor-pointer bg-bgDark2 hover:bg-bgDark3 border-primaryColor transition"
-              onClick={() => setIsModalOpen(true)}
-              aria-label="Live demo"
-            >
-              Live demo
-            </button>
+            className="w-64 sm:w-52 h-12 rounded-xl font-bold text-primaryText border border-solid flex justify-center items-center cursor-pointer bg-bgDark2 hover:bg-bgDark3 border-primaryColor transition"
+            onClick={() => setIsModalOpen(true)}
+            aria-label="Join waitlist"
+          >
+            Join Waitlist
+          </button>
           </div>
         </motion.div>
         <motion.div

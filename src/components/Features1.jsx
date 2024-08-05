@@ -19,7 +19,7 @@ export const Features1 = () => {
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
               <span className="block-subtitle">AI-Powered Shopify Insights</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
-                E-Commerce Intelligence for Everyone
+                E-Commerce Intelligence, Simplified
               </h2>
               <p className="mb-10 text-secondaryText leading-loose">
                 Experience the power of AI-driven insights that transform your Shopify data into easy-to-understand strategies for growth. Make smarter decisions without the complexity.
@@ -39,7 +39,7 @@ export const Features1 = () => {
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>* Cost-Effective: Avoid the high costs of traditional analytics tools or in-house teams while still gaining powerful intelligence that drives your store forward.</span>
+                  <span>Cost-Effective: Avoid the high costs of traditional analytics tools or in-house teams while still gaining powerful intelligence that drives your store forward.</span>
                 </li>
               </ul>
             </div>
