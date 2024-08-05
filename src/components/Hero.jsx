@@ -36,7 +36,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <h2 className="text-secondaryText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48">
-            Answer questions about your Shopify store data using natural language. Get instant, actionable insights to drive your business forward.
+            Unlock the full potential of your Shopify store by simply asking questions in natural language, getting instant insights that help you make smarter business decisions.
           </h2>
         </motion.div>
         <motion.div

@@ -27,23 +27,23 @@ export const Features2 = () => (
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
             <span className="block-subtitle">Smart Campaigns</span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
-              Data-Driven Marketing
+              Endless Store Optimization
             </h2>
             <p className="mb-12 text-secondaryText leading-loose">
-              Leverage AI to identify high-value customers and launch targeted email campaigns. Ask questions about your purchase history, churn, order volumes, and recent activity to maximize your marketing efforts.
+              Harness the power of AI to transform your Shopify store by asking questions unique to your business. Address challenges in marketing, customer engagement, and operations to drive growth.
             </p>
             <ul className="mb-6 text-primaryText">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Customer segmentation based on AI insights</span>
+                <span>Enhanced customer segmentation and targeting</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Automated campaign suggestions</span>
+                <span>Inventory and pricing optimization</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Performance tracking and optimization</span>
+                <span>Improved customer experience and retention</span>
               </li>
             </ul>
           </div>

@@ -19,27 +19,27 @@ export const Features1 = () => {
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
               <span className="block-subtitle">AI-Powered Shopify Insights</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
-                Your Shopify Data, Now Conversational
+                E-Commerce Intelligence for Everyone
               </h2>
               <p className="mb-10 text-secondaryText leading-loose">
-                We've built an AI-powered software that helps you answer questions about the data Shopify collects on your store. Get instant, actionable insights to drive your business forward.
+                Experience the power of AI-driven insights that transform your Shopify data into easy-to-understand strategies for growth. Make smarter decisions without the complexity.
               </p>
               <ul className="mb-6 text-primaryText">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Natural language queries: Ask questions in plain English and get data-driven answers</span>
+                  <span>Seamless Integration: Effortlessly connect with your existing Shopify data for real-time analysis without any technical setup</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Real-time data visualization: Graph your store's performance across any metric you ask for</span>
+                  <span>Natural Language Queries: Ask questions in plain English and get direct answers without sifting through complex reports</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Inventory management: Optimize procurement based on historical sales data</span>
+                  <span>Limitless Insights: Explore your data without limits by asking questions tailored to your store’s unique needs</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Product performance: Identify slow-moving inventory and associated costs</span>
+                  <span>* Cost-Effective: Avoid the high costs of traditional analytics tools or in-house teams while still gaining powerful intelligence that drives your store forward.</span>
                 </li>
               </ul>
             </div>
