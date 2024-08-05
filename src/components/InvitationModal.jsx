@@ -26,21 +26,21 @@ export const InvitationModal = ({ setIsOpen }) => (
                 Subscribe Now
               </h2>
               <h2 className="text-5xl font-bold tracking-normal text-secondaryColor">
-                Winter is coming
+                Join the waitlist
               </h2>
 
               <ul className="mb-6 text-primaryText mt-12">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Vestibulum viverra</span>
+                  <span>Immediate support</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Morbi mollis metus pretium</span>
+                  <span>Free consultation</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Etiam lectus nunc, commodo</span>
+                  <span>7-day free trial</span>
                 </li>
               </ul>
             </div>
@@ -55,7 +55,6 @@ export const InvitationModal = ({ setIsOpen }) => (
               </div>
 
               <h3 className="mb-7 text-2xl text-primaryText font-bold leading-snug text-center">
-                Join 3,953 other developers
               </h3>
               <div className="flex flex-wrap -m-2">
                 <div className="w-full sm:w-4/5 p-2 mx-auto">
