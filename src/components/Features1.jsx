@@ -54,32 +54,6 @@ export const Features1 = () => {
                   aria-label="Feature image 1"
                 />
               </div>
-              <div className="py-3 pl-3 pr-2 rounded ">
-                <img
-                  src={feature2.src}
-                  alt="Feature image 2"
-                  className="rounded-xl  main-border-gray mx-auto sm:mx-unset"
-                  aria-label="Feature image 2"
-                />
-              </div>
-            </div>
-            <div className="w-1/2 lg:mt-20  pt-12 lg:pt-0 px-2 hidden sm:inline-block">
-              <div className="mb-4 py-3 pl-3 pr-2 rounded-lg ">
-                <img
-                  src={feature3.src}
-                  alt="Feature image 3"
-                  className="rounded-xl  main-border-gray"
-                  aria-label="Feature image 3"
-                />
-              </div>
-              <div className="py-3 pl-3 pr-2 rounded-lg ">
-                <img
-                  src={feature4.src}
-                  alt="Feature image 4"
-                  className="rounded-xl  main-border-gray"
-                  aria-label="Feature image 4"
-                />
-              </div>
             </div>
           </div>
         </div>

@@ -22,13 +22,6 @@ export const Features2 = () => (
                 className="rounded-xl  main-border-gray"
               />
             </div>
-            <div className="py-3 md:pl-20 lg:pl-12 md:pr-2 rounded ">
-              <img
-                src={feature6.src}
-                alt="Feature image 6"
-                className="rounded-xl  main-border-gray"
-              />
-            </div>
           </div>
         </div>
 
