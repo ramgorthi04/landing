@@ -5,6 +5,9 @@ import featuresdiagonal from "../assets/images/featuresdiagonal.jpg";
 
 export const FeaturesDiagonal = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const handleGetStarted = () => {
+    window.open("https://calendly.com/ramgorthi/30min?back=1&month=2024-08", "_blank");
+  };
 
   return (
     <section className="lg:mb-16 w-full flex flex-col justify-center items-center bg-bgDark1">
@@ -38,11 +41,11 @@ export const FeaturesDiagonal = () => {
               Make data-driven decisions with ease. Elevate your e-commerce strategy with AI.
             </p>
             <button
-              className="w-[210px] h-12 contained-button mr-10"
-              onClick={() => setIsModalOpen(true)}
-              aria-label="Get started"
+                className="contained-button w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
+                onClick={handleGetStarted}
+                aria-label="Get started"
             >
-              Get Started
+                Get Started
             </button>
           </div>
         </div>

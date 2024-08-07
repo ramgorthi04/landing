@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { InvitationModal } from "./InvitationModal";
-import dashboard from "../assets/images/shopdashboard.jpg";
+import backgroundVideo from "../assets/video/dashboard_vid.mp4";
 
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isMuted, setIsMuted] = useState(true);
 
   const handleGetStarted = () => {
     window.open("https://calendly.com/ramgorthi/30min?back=1&month=2024-08", "_blank");
@@ -12,6 +13,10 @@ export const Hero = () => {
   
   const handleJoinWaitlist = () => {
     window.open("https://airtable.com/appnzbipIlayOkPod/shrH9WXcOSaiNb1oj", "_blank");
+  };
+
+  const toggleMute = () => {
+    setIsMuted(!isMuted);
   };
 
   return (
@@ -74,13 +79,33 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0, zIndex: 20 }}
           transition={{ duration: 0.5, delay: 0.15 }}
         >
-          <div className="relative w-screen flex justify-center ">
-            <img
-              src={dashboard.src}
-              alt="Dashboard image"
+          <div className="relative w-screen flex justify-center mb-16"> {/* Added margin-bottom here */}
+            <video
+              src={backgroundVideo}
+              autoPlay
+              loop
+              playsInline
+              muted={isMuted}
               className="w-4/5 2xl:w-[1200px] mx-auto absolute z-10 rounded-xl main-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
-            />
+            >
+              Your browser does not support the video tag.
+            </video>
+            <button
+              onClick={toggleMute}
+              className="absolute z-20 bottom-4 left-1/2 transform -translate-x-1/2 bg-bgDark2 text-primaryText px-3 py-1 rounded-md"
+            >
+              {isMuted ? 'Unmute' : 'Mute'}
+            </button>
           </div>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl xl:text-6xl font-bold tracking-wide text-primaryText px-8 sm:px-8 md:px-20 lg:px-4">
+            E-commerce intelligence, simplified
+          </h2>
         </motion.div>
         <div className="relative w-screen flex justify-center ">
           <div className="shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-52 hidden lg:block">
