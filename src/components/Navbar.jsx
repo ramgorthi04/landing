@@ -27,7 +27,7 @@ export const Navbar = () => {
                 <TailcastLogo />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
-                MerchantIQ
+                Operand
               </div>
             </div>
           </a>
