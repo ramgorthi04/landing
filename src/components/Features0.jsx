@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import feature5 from "../assets/images/feature5.jpg";
+import feature5 from "../assets/images/feature0.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
-export const Features2 = () => (
+export const Features0 = () => (
   <section className="w-full bg-bgDark2 mt-12 sm:mt-24 mb-12 lg:my-20 lg:mb-24 pt-4">
     <motion.div
       initial={{ opacity: 0 }}
@@ -25,25 +25,29 @@ export const Features2 = () => (
 
         <div className="w-full lg:w-1/2 mb-12 lg:mb-0 xl:pl-8">
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-            <span className="block-subtitle">Personalized Campaigns At Scale</span>
+            <span className="block-subtitle">Integrations</span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
-              Email Thousands of Leads in 1 Click
+              Plugs Into Your Store Data
             </h2>
             <p className="mb-12 text-secondaryText leading-loose">
-              Each email is carefully crafted to maximize chances of re-engagement, without you lifting a finger:
+              It doesn't matter which data warehouses you use, Operand will handle the data retrieval. We're constantly expanding our integrations.
             </p>
             <ul className="mb-6 text-primaryText">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>A personalized greeting based on the last products the customer ordered</span>
+                <span>Shopify</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>A tailored product recommendation, including mentions of low inventory and discounts if applicable.</span>
+                <span>Amazon</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Clear call-to-action: a purchase link and product image cooresponding to the product recommendation.</span>
+                <span>Google BigQuery</span>
+              </li>
+              <li className="mb-4 flex">
+                <CheckArrowIcon />
+                <span>Meta Ads</span>
               </li>
             </ul>
           </div>

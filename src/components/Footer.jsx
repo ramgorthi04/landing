@@ -5,23 +5,12 @@ import { TwitterIcon } from "../assets/icons/TwitterIcon";
 
 const footerData = [
   {
-    title: "Products",
-    items: ["Services", "About Us", "News and Stories", "Roadmap"],
+    title: "",
+    items: [""],
   },
   {
-    title: "Important Links",
-    items: [
-      "Organization Team",
-      "Our Journeys",
-      "Pricing Plans",
-      "Roadmap",
-      "Terms & Conditions",
-      { name: "Privacy Policy", link: "/landing/privacy" },
-    ],
-  },
-  {
-    title: "Company",
-    items: ["About Us", "Jobs", "Press", "Contact Us"],
+    title: "",
+    items: [""],
   },
 ];
 
@@ -41,7 +30,7 @@ export const Footer = () => {
                 </div>
               </div>
               <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
-                Reimagining shopify for business owners
+                Reimagining data analysis for business owners
               </p>
               <div className="w-36 mx-auto lg:mx-0">
               </div>

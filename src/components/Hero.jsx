@@ -31,7 +31,7 @@ export const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <h3 className="text-secondaryColor text-sm sm:text-base mb-6 sm:mt-32 mt-16 font-bold">
-            AI-Powered Shopify Insights
+            AI-Powered E-Commerce Insights
           </h3>
         </motion.div>
         <motion.div
@@ -40,7 +40,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.05 }}
         >
           <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide text-primaryText px-8 sm:px-8 md:px-20 lg:px-4">
-            Your Personal Shopify Store Analyst
+            Your Personal Data Analyst
           </h1>
         </motion.div>
         <motion.div
@@ -49,7 +49,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <h2 className="text-secondaryText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48">
-            Unlock the full potential of your Shopify store by simply asking questions in natural language, getting instant insights that help you make smarter business decisions.
+            Unlock the full potential of your e-commerce store by simply asking questions in natural language, getting instant insights that help you make smarter business decisions.
           </h2>
         </motion.div>
         <motion.div

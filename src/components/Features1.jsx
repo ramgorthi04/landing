@@ -17,25 +17,21 @@ export const Features1 = () => {
         <div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
           <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-              <span className="block-subtitle">AI-Powered Shopify Insights</span>
+              <span className="block-subtitle">Code-Powered Data Insights</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
-                E-Commerce Intelligence, Simplified
+                A Software Engineer, at your service
               </h2>
               <p className="mb-10 text-secondaryText leading-loose">
-                Experience the power of AI-driven insights that transform your Shopify data into easy-to-understand strategies for growth. Make smarter decisions without the complexity.
+                Operand can execute enterprise-level algorithms on your store data to identify customers likely to re-engage and predict customers' next orders.
               </p>
               <ul className="mb-6 text-primaryText">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Seamless Integration: Effortlessly connect with your existing Shopify data for real-time analysis without any technical setup</span>
+                  <span>Combine RFM analysis, CLV, purchase trends, and abandoned carts to predict customers most likely to re-engage.</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Natural Language Queries: Ask questions in plain English and get direct answers without sifting through complex reports</span>
-                </li>
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Limitless Insights: Explore your data without limits by asking questions tailored to your store’s unique needs</span>
+                  <span>Behind-the-scenes, our agent runs algorithms like eBay's Gradient Boost and Shopify's Matrix Factorization to predict what any customer will order next.</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
